@@ -11,3 +11,5 @@ WORKDIR /kent
 RUN gcc readseq.c cpg_lh.c -o cpglh
 
 ENV PATH "$PATH:/kent"
+
+WORKDIR /
